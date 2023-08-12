@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Panda:Creative Portfolio" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1"
+        />
+        <title>My Portfolio</title>
+        <link rel="shortcut icon" href="images/img1.png" type="image/png" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+        <link rel="stylesheet" href="css/bootstrap.rtl.min.css" media="all" />
+        <link rel="stylesheet" href="css/style.css" media="all" />
+
+    
+    </head>
+    <body>
+        <!-- Color Controls -->
+        <div class="controls">
+            <span class="icon" id="setting"
+                ><i class="fa fa-cog" aria-hidden="true"></i
+            ></span>
+            <ul class="colors-box" id="colors-box">
+                <li data-value="#3fb180"></li>
+                <li data-value="#dc3545"></li>
+                <li data-value="#20c997"></li>
+                <li data-value="#d63384"></li>
+                <li data-value="#6610f2"></li>
+                <li data-value="#6563ff"></li>
+                <li data-value="#fd7e14"></li>
+                <li data-value="#0dcaf0"></li>
+                <li data-value="#ff33e6"></li>
+                <li data-value="#ccff51"></li>
+            </ul>
+        </div>
+        <!-- Start header -->
+        <div class="overlay" id="overlay"></div>
+        <header id="header">
+            <div class="container">
+                <div class="row w-100">
+                    <div
+                        class="
+                            nav-brand
+                            col-9 col-sm-5 col-md-4 col-lg-3
+                            offset-lg-2
+                        "
+                    >
+                        <a href="#" class="brand" 
+                            >
+                            <b>
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="50"
+                                height="50"
+                                viewBox="0 0 60 60"
+                                style="margin: -25px;"
+                            >
+                                <!-- Head -->
+                                <circle cx="20" cy="12" r="8" fill="#ffa07a" style="fill:var(--main-color)" />
+                            
+                                <!-- Body -->
+                                <rect x="18" y="18" width="4" height="12" fill="#4682b4" style="fill:var(--main-color)" />
+                            
+                                <!-- Left Arm -->
+                                <rect x="10" y="20" width="8" height="2" fill="#4682b4" style="fill:var(--main-color)" />
+                            
+                                <!-- Right Arm -->
+                                <rect x="22" y="20" width="8" height="2" fill="#4682b4" style="fill:var(--main-color)" />
+                            
+                                <!-- Left Leg -->
+                                <rect x="16" y="30" width="4" height="12" fill="#4682b4" style="fill:var(--main-color)" />
+                            
+                                <!-- Right Leg -->
+                                <rect x="20" y="30" width="4" height="12" fill="#4682b4" style="fill:var(--main-color)" />
+                            
+                                <!-- Glasses -->
+                                <rect x="14" y="8" width="12" height="3" rx="1" fill="black" />
+                                <rect x="16" y="10" width="8" height="1" rx="0.5" fill="black" />
+                                <circle cx="18" cy="9" r="1" fill="black" />
+                                <circle cx="22" cy="9" r="1" fill="black" />
+                            
+                                <!-- Laptop -->
+                                <rect x="8" y="42" width="24" height="10" rx="3" fill="#a9a9a9" />
+                            
+                                <!-- Keyboard -->
+                                <rect x="10" y="46" width="20" height="4" rx="1" fill="#ffffff" />
+                            
+                                <!-- Left Hand -->
+                                <rect x="6" y="42" width="2" height="6" rx="1" fill="#4682b4" />
+                                <circle cx="5" cy="45" r="1.5" fill="#4682b4" />
+                            
+                                <!-- Right Hand -->
+                                <rect x="32" y="42" width="2" height="6" rx="1" fill="#4682b4" />
+                                <circle cx="35" cy="45" r="1.5" fill="#4682b4" />
+                            
+                                <!-- Glasses Reflection -->
+                                <circle cx="19" cy="8" r="1" fill="white" />
+                                <circle cx="21" cy="8" r="1" fill="white" />
+                            
+                                <!-- Text: "MUSTAFA" -->
+                                <text x="11" y="49" font-family="Arial, sans-serif" font-size="4" fill="red">
+                                    MUSTAFA
+                                </text>
+                            </svg>
+                            
+                            </b>
+                        
+                        
+                        
+                        
+                        </a>
+                    </div>
+                    <div class="menu-bar col-2 col-sm-2">
+                        <i
+                            class="fa fa-bars"
+                            aria-hidden="true"
+                            id="menu-bar"
+                        ></i>
+                    </div>
+                    <nav class="col-md-8 col-lg-7 nav-bar" id="nav-bar">
+                        <span>Sections:</span>
+                        <ul id="nav-list">
+                            <li>
+                                <a href="#" class="active item">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="item">About</a>
+                            </li>
+                            <li>
+                                <a href="#skills" class="item">Skills</a>
+                            </li>
+                            <li>
+                                <a href="#services" class="item">Services</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" class="item">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#certificates" class="item">Certificat</a>
+                            </li>
+                        </ul>
+                        <span>Follow Me:</span>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100013470122208&mibextid=ZbWKwL" class="item">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/mustafa-almheimid-534909253" target="_blank" class="item">Linked In</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Mustafaalmheimid" target="_blank"class="item">Github</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+        <div class="landing padding-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-lg-6 content offset-lg-1">
+                        <h1><span>Hello  👋</span>:</h1>
+                        <p>
+                            Welcome to my site! I'm Mustafa Almheimid, a passionate computer science student. Here, you'll find a portfolio showcasing my journey, projects, and interests in web development, mobile applications, artificial intelligence, and cybersecurity. This portfolio reflects my dedication and love for all things tech. Join me as we delve into my experiences and accomplishments, and explore the fascinating world of computer science together. 🚀
+                        </p>
+                        <div>
+                            <a href="mailto:almhymydm99@gmail.com" class="btn contact" aria-label="contact">
+                                Contact Me
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 img-box">
+                        <img
+                            class="img-responsive"
+                            src="images/img1.png"
+                            alt="user-image"
+                            width="400"
+                            height="400"
+                        />
+                    </div>
+                </div>
+                <div class="follow-box text-center">
+                    <a href="https://github.com/Mustafaalmheimid" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mustafa-almheimid-534909253" target="_blank">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://wa.me/79182648" target="_blank">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="scroll-down text-center">
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+                <div class="show-video-screen" id="video-screen">
+                    <div class="close-btn" id="close-btn">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                    <video controls poster="" preload="none" id="video">
+                        <source src="" />
+                        Not supported by your browser
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!-- Include your JavaScript files here if needed -->
+        
+        <!-- Start about me -->
+        <div class="about-me padding-section" id="about">
+            <div class="container">
+                <div class="title text-center">
+                    <h2>About Me</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet</p> -->
+                </div>
+                <div class="row">
+                    <div
+                        class="
+                            col-md-4
+                            img-animate-left img-container
+                            offset-md-1 offset-lg-2
+                        "
+                        id="img-container"
+                    >
+                        <div class="img-box">
+                            <img
+                                loading="lazy"
+                                class="img-responsive"
+                                src="images/Profile1.jpg"
+                                alt="user-img"
+                                width="400"
+                                height="400"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-7 col-lg-6 content content-animate-right"
+                        id="content"
+                    >
+                        <p> Hello there! 👋 I'm Mustafa Almheimid, a passionate computer science student currently pursuing my major at the Lebanese University. I have a keen interest in exploring various areas of computer science, including web development,mobile application ,artificial intelligence, and cybersecurity. My journey in the field of computer science has been exciting, and I am always eager to learn and take on new challenges.
+
+                        </p>
+                        <div class="edu">
+                            <h3 class="h4">Education:</h3>
+                            <ul>
+                                <li>
+                                    BACHELOR IN COMPUTER SCIENCE  2022 - PRESENT 
+                                </li>
+                               
+                                    LEBANESE UNIVERSITY, FACULTY OF SCIENCES, BRANCH I HADATH, LEBANON 
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End about me-->
+<!-- Start skills -->
+<div class="skills padding-section" id="skills">
+    <div class="container">
+      <div class="title text-center">
+        <h2>Skills</h2>
+        <p>Here are some of my skills</p>
+      </div>
+      <div class="row skill-box">
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-item">
+            <h3 class="h5">Web Development</h3>
+            <p>
+              I am proficient in HTML, CSS, and JavaScript. I can create responsive and user-friendly websites using modern frameworks like React and Bootstrap.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-item">
+            <h3 class="h5">Programming Languages</h3>
+            <p>
+              I have experience in programming languages like C, Java . I can write efficient and optimized code for various applications.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-item">
+            <h3 class="h5">Data Structures & Algorithms</h3>
+            <p>
+              I have a strong understanding of data structures and algorithms. I can solve complex problems and implement algorithms to improve efficiency.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-item">
+            <h3 class="h5">Database Management</h3>
+            <p>
+            I am familiar with SQL and database management systems like MySQL. I can design and optimize databases to store and retrieve data efficiently.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-item">
+            <h3 class="h5">Version Control</h3>
+            <p>
+              I have experience with version control systems like Git. I can collaborate on projects with teams and manage code changes effectively.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="skill-item">
+                <h3 class="h5">Data Annotation (Image & Text)</h3>
+                <p>
+                    I have expertise in data annotation for both images and text. I can label and annotate images with bounding boxes, segmentation masks, keypoints, etc., and label text data for sentiment analysis, named entity recognition, and more.
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="skill-item">
+              <h3 class="h5">Internet of Things (IoT)</h3>
+              <p>
+                <!-- I have a foundational understanding of Internet of Things (IoT) technologies. This includes the ability to connect and communicate with various IoT devices. I'm familiar with the concept of collecting and processing data from sensors. Moreover, I'm eager to explore how IoT can be used to create innovative solutions that enhance connectivity and automation in various domains. -->
+                I'm familiar with IoT basics, including device connectivity and data processing from sensors. I'm intrigued by its potential to create smarter, connected solutions that enhance efficiency and user experiences.
+            </p>
+            </div>
+          </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-item">
+            <h3 class="h5">Problem Solving</h3>
+            <p>
+              I enjoy solving challenging problems and finding innovative solutions. I have a logical and analytical approach to tackle complex issues.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="skill-item">
+                <h3 class="h5">Mobile Application Development</h3>
+                <p>
+                    I have expertise in mobile application development for both Android and iOS platforms. I can create native or cross-platform mobile apps that are intuitive, user-friendly, and tailored to meet the specific needs of users.
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="skill-item">
+                <h3 class="h5"></h3>
+                <p>
+                </p>
+            </div>
+        </div>
+ 
+        
+      </div>
+    </div>
+  </div>
+  <!-- End skills -->
+  
+<!-- Start services -->
+<div class="services padding-section" id="services">
+    <div class="container">
+      <div class="title text-center">
+        <h2>Services</h2>
+        <p>Here are some of the services I offer</p>
+      </div>
+      <div class="row services-box text-center">
+        <div class="col-md-4">
+          <div class="service-item animate-scale">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
+            <h3>Web Development</h3>
+            <p>
+              I offer professional web development services. Whether you need a simple static website or a dynamic web application, I can build it using the latest technologies and best practices.
+            </p>
+            <p>+5 Projects</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item animate-scale">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <h3>Mobile App Development</h3>
+            <p>
+              I provide mobile app development services for both Android and iOS platforms. From concept to deployment, I can create native or cross-platform mobile apps that meet your needs.
+            </p>
+            <p>+3 Projects</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="service-item animate-scale">
+              <i class="fa fa-database" aria-hidden="true"></i>
+              <h3>Database Design (SQL)</h3>
+              <p>
+                I specialize in designing efficient and scalable SQL databases. Whether you need a relational database or a custom-tailored SQL solution, I can design and optimize it to handle your data needs with utmost efficiency and security.
+              </p>
+              <p>+2 Projects</p>
+            </div>
+          </div>
+
+          
+          <div class="col-md-4">
+            <div class="service-item animate-scale">
+                <i class="fa fa-list-alt" aria-hidden="true"></i>
+                <h3>Data Annotation</h3>
+                <p>
+                    I provide data annotation services for various applications, including image and text annotation. I can label and annotate data to train machine learning models for computer vision, natural language processing, and more.
+                </p>
+                <p>+15 Projects</p>
+            </div>
+        </div>
+          
+      </div>
+    </div>
+  </div>
+  <!-- End services -->
+        <!-- Start portfolios -->
+        <div class="portfolio padding-section" id="portfolio">
+            <div class="container">
+                <div class="title text-center">
+                    <h2>Portfolio</h2>
+                    <p>Explore my latest projects and designs</p>
+                </div>
+                <div class="portfolio-types text-center">
+                    <ul>
+                        <li class="active-type">All</li>
+                        <li>UI/UX</li>
+                        <li>Websites</li>
+                        <li>GUI(JAVA)</li>
+                    </ul>
+                </div>
+                <div class="row portfolio-box">
+                    <div
+                        class="col-sm-6 col-md-4 show-portfolios"
+                        data-text="UI/UX"
+                    >
+                        <div class="portfolio-item">
+                            <div class="portfolio-overlay"></div>
+                            <a class="btn" href="https://github.com/Mustafaalmheimid/cakesweet" target="_blank"
+                                >Show Demo</a
+                            >
+                            <img
+                                src="images/projet1.png"                                "
+                                alt="portfolio1.png"
+                                loading="lazy"
+                                width="400"
+                                height="400"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-6 col-md-4 show-portfolios"
+                        data-text="UI/UX"
+                    >
+                        <div class="portfolio-item">
+                            <div class="portfolio-overlay"></div>
+                            <a class="btn" href="https://github.com/MustafaAlmheimid/UniversityProject" target="_blank"
+                                >Show Demo</a
+                            >
+                            <img
+                                src="images/projet2.png"
+                                alt="portfolio2.png"
+                                loading="lazy"
+                                width="400"
+                                height="400"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-6 col-md-4 show-portfolios"
+                        data-text="Dashboards"
+                    >
+                        <div class="portfolio-item">
+                            <div class="portfolio-overlay"></div>
+                            <a class="btn" href="https://github.com/MustafaAlmheimid/TicTacToe" target="_blank"
+                                >Show Demo</a
+                            >
+                            <img
+                                src="images/projet3.png"
+                                alt="portfolio3.png"
+                                loading="lazy"
+                                width="400"
+                                height="400"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-6 col-md-4 show-portfolios"
+                        data-text="Websites"
+                    >
+                        <div class="portfolio-item">
+                            <div class="portfolio-overlay"></div>
+                            <a class="btn" href="https://github.com/MustafaAlmheimid/Calculator" target="_blank"
+                                >Show Demo</a
+                            >
+                            <img
+                                src="images/projet4.png"
+                                alt="portfolio4.png"
+                                loading="lazy"
+                                width="400"
+                                height="400"
+                            />
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+                <!-- B7ttha eza zedet machare3 wma btse3 hon -->
+                <!-- <div class="see-more text-center">
+                    <p>Explore more of my work and projects in my portfolio. Click the button below to view additional projects.</p>
+                    <a href="#" class="btn">See More Projects</a>
+                </div> -->
+            </div>
+        </div>
+        <!-- End portfolios--> 
+
+<!-- Start certificates -->
+<div class="certificates padding-section" id="certificates">
+    <div class="container">
+        <div class="title text-center">
+            <h2>Certificates</h2>
+            <p>Explore my certifications and achievements</p>
+        </div>
+        <div class="row certificates-box">
+            <!-- Certificate 1 -->
+            <div class="col-md-6 col-lg-4 show-certificates" data-text="Web Development">
+                <div class="certificate-item">
+                    <div class="certificate-overlay"></div>
+                    <a class="btn" href="image.html?src=images/Certificat1.png" target="_blank">View Certificate</a>
+                    <img src="images/Certificat1.png" alt="Certificate 1" loading="lazy" /> 
+               </div>
+            </div>
+            <!-- Certificate 2 -->
+            <div class="col-md-6 col-lg-4 show-certificates" data-text="UI/UX Design">
+                <div class="certificate-item">
+                    <div class="certificate-overlay"></div>
+                    <a class="btn" href="image.html?src=images/Certificat2.png" target="_blank">View Certificate</a>
+                    <img src="images/Certificat2.png" alt="Certificate 2" loading="lazy" />
+                </div>
+            </div>
+            <!-- Certificate 3 -->
+            <div class="col-md-6 col-lg-4 show-certificates" data-text="Mobile App Development">
+                <div class="certificate-item">
+                    <div class="certificate-overlay"></div>
+                    <a class="btn" href="image.html?src=images/Certificat3.png" target="_blank">View Certificate</a>
+                    <img src="images/Certificat3.png" alt="Certificate 3" loading="lazy" />
+                </div>
+            </div>
+            <!-- Certificate 4 -->
+            <div class="col-md-6 col-lg-4 show-certificates" data-text="Graphic Design">
+                <div class="certificate-item">
+                    <div class="certificate-overlay"></div>
+                    <a class="btn" href="image.html?src=images/Certificat4.png" target="_blank">View Certificate</a>
+                    <img src="images/Certificat4.png" alt="Certificate 4" loading="lazy" />
+                </div>
+            </div>
+            <!-- Certificate 5 -->
+            <div class="col-md-6 col-lg-4 show-certificates" data-text="Database Management">
+                <div class="certificate-item">
+                    <div class="certificate-overlay"></div>
+                    <a class="btn" href="image.html?src=images/Certificat5.png" target="_blank">View Certificate</a>
+                    <img src="images/Certificat5.png" alt="Certificate 5" loading="lazy" />
+                </div>
+            </div>
+            <!-- Certificate 6 -->
+            <div class="col-md-6 col-lg-4 show-certificates" data-text="Java Programming">
+                <div class="certificate-item">
+                    <div class="certificate-overlay"></div>
+                    <a class="btn" href="image.html?src=images/Certificat6.png" target="_blank">View Certificate</a>
+                    <img src="images/Certificat6.png" alt="Certificate 6" loading="lazy" />
+                </div>
+            </div>
+            <!-- Certificate 7 -->
+            <div class="col-md-6 col-lg-4 show-certificates" data-text="Java Programming">
+                <div class="certificate-item">
+                    <div class="certificate-overlay"></div>
+                    <a class="btn" href="image.html?src=images/certeficate7.jpg" target="_blank">View Certificate</a>
+                    <img src="images/certeficate7.jpg" alt="Certificate 7" loading="lazy" />
+                </div>
+            </div>
+            <!-- Certificate 8 -->
+            <div class="col-md-6 col-lg-4 show-certificates" data-text="Java Programming">
+                <div class="certificate-item">
+                    <div class="certificate-overlay"></div>
+                    <a class="btn" href="image.html?src=images/certeficate8.jpg" target="_blank">View Certificate</a>
+                    <img src="images/certeficate8.jpg" alt="Certificate 8" loading="lazy" />
+                </div>
+            </div>
+            <!-- Add more certificates here -->
+        </div>
+    </div>
+</div>
+<!-- End certificates -->
+
+
+
+        
+        <!-- Start contact-me-->
+        
+        <!-- <div class="contact-me padding-section" id="contact">
+            <div class="container">
+                <div class="title text-center">
+                    <h2>Contact Me</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <form action="process_form.php" method="post">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-5 offset-md-1">
+                            <div class="username">
+                                <label for="username">Username:</label>
+                                <input
+                                    class="form-control"
+                                    type="text"
+                                    name="username"
+                                    id="username"
+                                />
+                            </div>
+                            <div class="email">
+                                <label for="email">Email:</label>
+                                <input
+                                    class="form-control"
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                />
+                            </div>
+                            <div class="subject">
+                                <label for="subject">Subject:</label>
+                                <input
+                                    class="form-control"
+                                    type="text"
+                                    name="subject"
+                                    id="subject"
+                                />
+                            </div>
+                            <input
+                                type="submit"
+                                class="form-control btn btn-block"
+                                name="submit"
+                                value="Send"
+                            />
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="description">
+                                <label for="description">Description:</label>
+                                <textarea
+                                    class="form-control"
+                                    name="description"
+                                    rows="10"
+                                    id="description"
+                                ></textarea>
+                            </div>
+                            <input
+                                type="submit"
+                                class="form-control btn btn-block hidden"
+                                name="submit2"
+                                value="Send"
+                            />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div> -->
+        <!-- End contact-me -->
+        <!-- Start footer -->
+<footer>
+    <div class="container">
+        <div>
+            <h2><span>Welcome</span> to My Portfolio</h2>
+            <hr />
+        </div>
+        <div class="row">
+            <!-- <div class="col-sm-6 col-md-4">
+                <div class="item">
+                    <h3 class="h4">Explore:</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div> -->
+            <div class="col-sm-6 col-md-4">
+                <div class="item">
+                    <h3 class="h4">Contact:</h3>
+                    <ul>
+                        <li>Email: <a href="mailto:almhymydm99@gmail.com" 
+                            class="mail"
+                            >almhymydm99@gmail.com</a></li>
+                        <li>Phone: <a href="https://wa.me/96179182648" target="_blank" class="mail">
+                             +961 79182648</a></li>
+                        <li>Location: Beirut</li>
+
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="item" style="width: 120%;"> 
+                    <h3 class="h4">Welcome </h3>
+                    <p >
+
+                        Welcome to my page! Mustafa Almheimid is here to provide you with exceptional mobile app development services. With expertise in crafting captivating and highly functional mobile apps, I'm excited to collaborate with you and bring your ideas to life!
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="design-by text-center">
+    
+        <p>
+            All rights reserved &copy; 2023 by <span>Mustaaf Almheimid</span>
+        </p>
+    </div>
+</footer>
+<!-- End footer -->
+
+
+        <script src="js/main.js" defer async></script>
+    </body>
+</html>
